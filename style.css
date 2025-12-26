@@ -1,16 +1,9 @@
 .distribution {
   display: flex;
-  justify-content: space-between; /* već razdvaja */
-  align-items: flex-start;
-}
-.left,
-.right {
-  gap: 20px;
-}
-.left {
-  margin-right: 50gipx;
+  gap: 120px;
 }
 
 .right {
-  margin-left: 50px;
+  display: grid;
+  gap: 10px;
 }
